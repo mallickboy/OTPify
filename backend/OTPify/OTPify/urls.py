@@ -24,4 +24,6 @@ urlpatterns = [
     path('about', views.about, name="about"),
     path('contact', views.contact, name="contact"),
     path('auth/', include("my_auth.urls")), # transferring control of /auth/* to auth/urls.py
+
+    path("__reload__/", include("django_browser_reload.urls")) # for hot reload remove in production
 ]

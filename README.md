@@ -33,7 +33,7 @@ Providing a OTP/Mail delivery service
 
 ``` python manage.py runserver 8080 ```
 
-
+``` python .\manage.py tailwind start ```
 
 
 
