@@ -29,6 +29,9 @@ Providing a OTP/Mail delivery service
 
 ``` pip install -r requirements.txt ```
 
+``` cd OTPify ```
+
+``` python manage.py runserver 8080 ```
 
 
 
