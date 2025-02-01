@@ -12,4 +12,4 @@ fastapi-env
 
 # Ignoring secrect keys
 .env
-backend/.env
+/backend/.env
