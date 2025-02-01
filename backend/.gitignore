@@ -9,3 +9,6 @@ __pycache__/
 
 fastapi-env
 .DS_Store
+
+# Ignoring secrect keys
+.env

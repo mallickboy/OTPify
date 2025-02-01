@@ -1,3 +1,5 @@
+# ✅ Handles OTP generation, storage, and verification
+
 import random
 
 def generate_otp():

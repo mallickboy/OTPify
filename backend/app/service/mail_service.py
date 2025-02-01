@@ -1,0 +1,1 @@
+# ✅ Handles SMTP email sending
