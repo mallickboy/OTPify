@@ -6,3 +6,6 @@ backend/.venv/
 __pycache__/  
 *.py[cod]  
 *$py.class  
+
+fastapi-env
+.DS_Store

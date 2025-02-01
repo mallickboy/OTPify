@@ -2,7 +2,7 @@
 Mail-Delivery-Service
 </h1>
 <h3 align="center">
-Providing a OTP/Mail delivery service
+Providing a OTP/Mail delivery service using advanced ML algorithm and FastAPI 
 </h3>
 
 ### Pull the code
@@ -29,11 +29,9 @@ Providing a OTP/Mail delivery service
 
 ``` pip install -r requirements.txt ```
 
-``` cd OTPify ```
+``` uvicorn app.main:app --host "0.0.0.0" --port 8080 ```
 
-``` python manage.py runserver 8080 ```
-
-``` python .\manage.py tailwind start ```
+``` puvicorn app.main:app --host "0.0.0.0" --port 8080 --reload ``` ( Optional for auto relaod )
 
 
 
