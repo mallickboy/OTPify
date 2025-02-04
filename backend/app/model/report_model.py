@@ -1,0 +1,1 @@
+# Report model schema (store reports records)

@@ -1,0 +1,1 @@
+# Endpoints for sending reports for mails

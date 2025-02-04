@@ -1,3 +1,5 @@
+# Endpoints for user authentication
+
 from fastapi import APIRouter, Depends
 from pydantic import BaseModel
 # from app.schema.user_schema import UserCreate

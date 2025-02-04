@@ -1,4 +1,5 @@
-# Example of usage
+# App configurations (database, email settings)
+
 import os
 from pathlib import Path
 from dotenv import load_dotenv

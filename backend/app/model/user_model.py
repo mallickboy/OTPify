@@ -1,4 +1,4 @@
-# example
+ # User model schema
 
 from sqlalchemy import Column, Integer, String
 from app.db.session import Base

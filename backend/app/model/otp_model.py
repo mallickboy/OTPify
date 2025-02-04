@@ -1,0 +1,1 @@
+# OTP model schema (store OTP records)

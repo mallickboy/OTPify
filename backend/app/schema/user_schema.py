@@ -1,4 +1,5 @@
-# eaxmple
+# User-related request/response models
+
 from pydantic import BaseModel, EmailStr
 
 class UserCreate(BaseModel):

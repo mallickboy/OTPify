@@ -1,3 +1,5 @@
+# ✅ Handles common dependencies for routes
+
 from fastapi import APIRouter
 from app.api.v1.endpoint import auth_endpoint, otp_endpoint, report_endpoint, user_endpoint
 
