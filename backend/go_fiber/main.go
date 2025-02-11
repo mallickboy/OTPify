@@ -13,12 +13,12 @@ import (
 	"strconv"
 )
 func Load_dotenv() map[string]string {
-    if godotenv.Load() != nil{
+    if godotenv.Load("../.env") != nil{
         log.Fatal("Unable to load .env file")
     }
     env := make(map[string]string)
     env["SERVER_HOST"] = os.Getenv("SERVER_HOST")
-	env["SERVER_PORT"] = os.Getenv("SERVER_PORT")
+	env["SERVER_PORT"] = os.Getenv("SERVER_PORT_FIBER")
 	env["MASTER_EMAIL_ALIAS"] = os.Getenv("MASTER_EMAIL_ALIAS")
 	env["MASTER_EMAIL_PASSWORD"] = os.Getenv("MASTER_EMAIL_PASSWORD")
 	env["MASTER_EMAIL_ID"] = os.Getenv("MASTER_EMAIL_ID")

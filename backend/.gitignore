@@ -13,3 +13,9 @@ fastapi-env
 # Ignoring secrect keys
 .env
 /backend/.env
+
+# Ignoring go related files
+/go/tmp
+*.exe
+*.out
+*.test
