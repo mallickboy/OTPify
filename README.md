@@ -44,13 +44,10 @@ A secure OTP and email delivery service built with Go Fiber, integrated with adv
 
 ``` uvicorn app.main:app --host "0.0.0.0" --port 8080 --reload ``` ( Optional for auto relaod )
 
-
-
-
-### Stop Python Virtual Environment
+#### Stop Python Virtual Environment
 
 ``` deactivate ```
 
-### Remove Python Virtual Environment ( ! CAUTION !)
+#### Remove Python Virtual Environment ( ! CAUTION !)
 
 ``` Remove-Item -Recurse -Force .\venv ```
