@@ -3,3 +3,4 @@
 /backend/.env
 /ignore
 /local_data
+/go_server_handler
