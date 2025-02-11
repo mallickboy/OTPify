@@ -2,3 +2,4 @@
 .env
 /backend/.env
 /ignore
+/local_data

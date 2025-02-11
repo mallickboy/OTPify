@@ -27,11 +27,11 @@ Providing a OTP/Mail delivery service using advanced ML algorithm and FastAPI
 
 ### Start the server
 
-``` pip install -r requirements.txt ```
+``` pip install --no-cache -r .\requirements.txt ```
 
 ``` uvicorn app.main:app --host "0.0.0.0" --port 8080 ```
 
-``` puvicorn app.main:app --host "0.0.0.0" --port 8080 --reload ``` ( Optional for auto relaod )
+``` uvicorn app.main:app --host "0.0.0.0" --port 8080 --reload ``` ( Optional for auto relaod )
 
 
 
